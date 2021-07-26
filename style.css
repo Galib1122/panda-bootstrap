@@ -1,0 +1,22 @@
+body{
+    scroll-behavior: smooth !important;
+}
+.panda-bg{
+    background-color: #fceae8;
+}
+.panda-btn-all{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+
+}
+nav,#subscribe,#shoes,#backpack{
+    margin-bottom: 120px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+}
